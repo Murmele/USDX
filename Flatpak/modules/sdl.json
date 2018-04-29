@@ -1,0 +1,11 @@
+{
+    "name": "sdl",
+    "sources": [
+        {
+            "type": "archive",
+            "url": "https://www.libsdl.org/release/SDL2-2.0.8.tar.gz",
+            "sha256": "edc77c57308661d576e843344d8638e025a7818bff73f8fbfab09c3c5fd092ec"
+        }
+    ]
+}
+	

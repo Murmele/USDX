@@ -1,0 +1,14 @@
+{
+	"name": "freePascalCompiler",
+	"buildsystem": "simple",
+	"build-commands": [
+		"EXECDIR=/app LIBDIR=/app/lib PREFIX=/app HOME=/app sh install.sh "
+	],
+	"sources": [
+		{
+			"url": "https://datapacket.dl.sourceforge.net/project/freepascal/Linux/3.0.4/fpc-3.0.4.x86_64-linux.tar",
+			"type": "archive",
+			"sha256": "7e965baf13c9822a0ff39e7bbfa040bd5599e94d0f3338f1ac4efa989081fd77"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+      "name": "lua",
+      "no-autogen": true,
+      "make-args": ["posix"],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "http://www.lua.org/ftp/lua-5.2.4.tar.gz",
+          "sha256": "b9e2e4aad6789b3b63a056d442f7b39f0ecfca3ae0f1fc0ae4e9614401b69f4b"
+        },
+        {
+          "type": "patch",
+          "path": "lua-liblua.so.patch"
+        },
+        {
+          "type": "patch",
+          "path": "lua-to_lib.patch"
+        },
+        {
+          "type": "patch",
+          "path": "lua-fpic.patch"
+        },
+        {
+          "type": "patch",
+          "path": "lua-install_top.patch"
+        }
+      ]
+}

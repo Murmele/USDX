@@ -2896,7 +2896,6 @@ fi
 # Check whether --with-fpc was given.
 if test "${with_fpc+set}" = set; then :
   withval=$with_fpc; PPC_PATH=$withval
-	echo $withval
 fi
 
 
