@@ -1,0 +1,9 @@
+[default]
+name=Default
+runtime=flatpak:org.freedesktop.Platform.ffmpeg/x86_64/1.6
+config-opts=
+run-opts=
+prefix=/app
+app-id=
+postbuild=
+prebuild=
